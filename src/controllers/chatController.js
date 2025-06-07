@@ -94,9 +94,9 @@ Expected Output :
     try {
         console.log(message)
         const azureClient = new AzureOpenAI({
-            endpoint: process.env.OPENAI_KEY,
+            endpoint: process.env.AZURE_OPENAI_ENDPOINT,
             apiKey: process.env.AZURE_OPENAI_KEY,
-            apiVersion: "2024-02-01", //version of deployment
+            apiVersion: "xxxx-xx-xx", //version of deployment
         });
 
         const completion = await azureClient.chat.completions.create({
