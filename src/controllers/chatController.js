@@ -38,7 +38,6 @@ Expected Output :
         const openai = new OpenAI({
             apiKey: process.env.OPENAI_KEY
         });
-        //console.log(openai)
         const completion = await openai.chat.completions.create({
             model: "gpt-4o-mini",
             store: true,
