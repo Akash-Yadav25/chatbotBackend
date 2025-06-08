@@ -53,7 +53,6 @@ Expected Output :
             ],
         });
         //console.dir(completion, { depth: null })
-        //console.log(completion.choices[0].message);
         response = JSON.parse(completion.choices[0].message.content)
         res.status(200).send(response)
     } catch (error) {

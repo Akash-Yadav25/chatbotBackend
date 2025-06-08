@@ -1,4 +1,4 @@
-# Node.js Project – API Backend
+# Node.js Project – Chatbot Backend
 
 ## Overview
 
